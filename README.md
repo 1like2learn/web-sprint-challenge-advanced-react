@@ -44,7 +44,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-_This project uses a local server for the data fetching. You will need three seperate terminal windows open:_
+_This project uses a local server for the data fetching. You will need three separate terminal windows open:_
 
 1. _one for your server_
 2. _one for your React app (in the /client folder)_
