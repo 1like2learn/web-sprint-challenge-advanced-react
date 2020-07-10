@@ -30,13 +30,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+  State inside class components is very similar to normal components. The main difference arises from different syntax. Instead of using the useState hook you use a constructor function. Inside the constructor function you call super so you can use this. In addition you can define whatever state you need as well as give that state an initial value.
+
 2. Describe the different phases of the component lifecycle.
+
+  Mounting: the component is put together
+  Updating: the component changes any state due to new data coming in through a use or an api
+  Unmounting: the component is removed from the screen
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+  ComponentDidMount: used like a useEffect hook to grab data from api's or run any code that should be used after the DOM has rendered.
+  SetState: changes state and causes a rerender due to new data being available.
+
 4. Define stateful logic.
 
+  Stateful Logic: logic inside of a component that deals with state. Like when you grab data from an api to update you're state and then display that data.
+
 5. Describe how to test a React component with React Testing Library.
+
+  Using React Testing Library you make sure all the elements in your code can be selected using the library. Then you define new variables with the elements you select. Finally, you make sure those variables are doing or contain the right stuff.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
